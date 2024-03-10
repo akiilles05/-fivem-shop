@@ -14,5 +14,20 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: [
+      {
+        daeavid: {
+          "primary": "#384036",
+          "secondary": "#525e4e",
+          "accent": "#f5cb5c",
+          "neutral": "#e8eddf",
+          "base-100": "#384036",
+        },
+      },
+      "dark",
+      "cupcake",
+    ],
+  },
 };
